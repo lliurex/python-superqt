@@ -2,7 +2,7 @@ Source: python3-superqt
 Section: libs
 Priority: optional
 Maintainer: M.Angel Juan <m.angel.juan@gmail.com>
-Build-Depends: debhelper-compat (= 12), dh-python, python3-typing-extensions (>= 3.10.0.2-1), python3-qtpy
+Build-Depends: debhelper-compat (= 12), dh-python, python3-setuptools-scm, python3-typing-extensions (>= 3.10.0.2-1), python3-qtpy
 Standards-Version: 4.4.1
 Homepage: https://github.com/napari/superqt
 Vcs-Browser: https://github.com/napari/superqt
