@@ -1,0 +1,15 @@
+Source: python3-superqt
+Section: libs
+Priority: optional
+Maintainer: M.Angel Juan <m.angel.juan@gmail.com>
+Build-Depends: debhelper-compat (= 12)
+Standards-Version: 4.4.1
+Homepage: https://github.com/napari/superqt
+Vcs-Browser: https://github.com/napari/superqt
+
+Package: python3-superqt
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, python3
+Description: Additional Qt components for Python
+ High-quality community-contributed Qt widgets and components 
+ for PyQt & PySide that are not provided in the native QtWidgets.
